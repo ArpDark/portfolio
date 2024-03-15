@@ -8,13 +8,19 @@ import { Menu, Transition } from '@headlessui/react';
 export default function Navbar(){
     return(
         <div className="flex fixed w-full h-16 bg-gray-700 bg-opacity-80 items-center md:justify-normal z-50 ">
+
           <div className="hidden md:visible md:flex w-full justify-between items-center">
+
             <div className="flex w-1/2 justify-around ">
+
               <Link href="/#home" className=" font-medium text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">HOME</Link>
               <Link href="/#about" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">ABOUT</Link>
+
               <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XlyMqJABJjMv-IBaIDZG14qFv7XWG2Po/view" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">RESUME</a>
+
               <Link href="/#projects" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">PROJECTS</Link>
               <Link href="/#contact" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">CONTACT</Link>
+
             </div>
             <div className=" flex justify-around w-1/5">
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArpDark">
@@ -58,9 +64,9 @@ export default function Navbar(){
                         </Link>
                     </Menu.Item>
                     <Menu.Item>
-                        <Link href="#" className="text-white block px-4 py-2 text-sm">
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XlyMqJABJjMv-IBaIDZG14qFv7XWG2Po/view" className="text-white block px-4 py-2 text-sm">
                           RESUME
-                        </Link>
+                        </a>
                     </Menu.Item>
                     <Menu.Item>
                         <Link href="/#projects" className="text-white block px-4 py-2 text-sm">
