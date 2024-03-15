@@ -7,13 +7,7 @@ dotenv.config();
 export async function POST(request: NextRequest) {
 
   const { name, email, content } = await request.json();
-  console.log(email);
-  console.log(name);
-  console.log(content);
-  console.log(process.env.EMAIL);
-  console.log(process.env.PASSWORD);
   
-
   const transport = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -57,8 +51,8 @@ export async function POST(request: NextRequest) {
     });
 
   try {
-    receiveMailPromise();
-    sendMailPromise();
+    await receiveMailPromise();
+    await sendMailPromise();
     return NextResponse.json({ message: 'Email sent' });
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });
