@@ -8,12 +8,26 @@ import { Menu, Transition } from '@headlessui/react';
 export default function Navbar(){
     return(
         <div className="flex fixed w-full h-16 bg-gray-700 bg-opacity-80 items-center md:justify-normal z-50 ">
-          <div className="hidden md:visible md:flex w-1/2 justify-around h-fit ">
-            <Link href="/#home" className=" font-medium text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">HOME</Link>
-            <Link href="/#about" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">ABOUT</Link>
-            <Link href="#" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">RESUME</Link>
-            <Link href="/#projects" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">PROJECTS</Link>
-            <Link href="/#contact" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">CONTACT</Link>
+          <div className="hidden md:visible md:flex w-full justify-between items-center">
+            <div className="flex w-1/2 justify-around ">
+              <Link href="/#home" className=" font-medium text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">HOME</Link>
+              <Link href="/#about" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">ABOUT</Link>
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XlyMqJABJjMv-IBaIDZG14qFv7XWG2Po/view" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">RESUME</a>
+              <Link href="/#projects" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">PROJECTS</Link>
+              <Link href="/#contact" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">CONTACT</Link>
+            </div>
+            <div className=" flex justify-around w-1/5">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArpDark">
+                <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm  hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aritra-pal-6760b8188/">
+                <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm  hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ARITRA1004">
+                <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+              </a>
+            </div>
+
           </div>
           <div className="md:hidden w-full">
             <Menu as="div" className="flex  text-left justify-end">
@@ -58,6 +72,26 @@ export default function Navbar(){
                           CONTACT
                         </Link>
                     </Menu.Item>
+                    <Menu.Item>
+                        <div  className="border border-gray-500"></div>
+                    </Menu.Item>
+                    <div className="flex mt-6 justify-around pb-6 ">
+                      <Menu.Item>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArpDark">
+                          <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm  hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aritra-pal-6760b8188/">
+                          <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm  hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item>
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ARITRA1004">
+                          <img className=" h-10 w-10 bg-white p-1 rounded-md shadow-sm hover:shadow-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+                        </a>
+                      </Menu.Item>
+                    </div>
 
                   </div>
                 </Menu.Items>

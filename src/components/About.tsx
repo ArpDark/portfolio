@@ -3,7 +3,7 @@
 
 export default function About(){
     return(
-      <div id="about" className="flex flex-col z-0 ">
+      <div id="about" className="flex flex-col z-0 pt-16 ">
         <div className="flex flex-col items-center font-mono">
           <p className=" text-4xl text-white font-semibold pt-1">About Me</p>
           <p className=" text-xl text-white text-center font-medium py-2">
