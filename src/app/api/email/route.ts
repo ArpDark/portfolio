@@ -22,16 +22,32 @@ export async function POST(request: NextRequest) {
     },
   });
 
-  const mailOptions: Mail.Options = {
+  const receiveMailOptions: Mail.Options = {
     from: email,
     to: process.env.EMAIL,
     subject: `Message from ${name} (${email})`,
     text: content,
   };
+  const sendMailOptions: Mail.Options = {
+    from: process.env.EMAIL,
+    to: email,
+    subject: "Message sent",
+    text: `Your message has been successfully sent to ${process.env.EMAIL}. You will be receiving a reply soon.\n\nThank you`,
+  };
 
+  const receiveMailPromise = () =>
+    new Promise<string>((resolve, reject) => {
+      transport.sendMail(receiveMailOptions, function (err) {
+        if (!err) {
+          resolve('Email sent');
+        } else {
+          reject(err.message);
+        }
+      });
+    });
   const sendMailPromise = () =>
     new Promise<string>((resolve, reject) => {
-      transport.sendMail(mailOptions, function (err) {
+      transport.sendMail(sendMailOptions, function (err) {
         if (!err) {
           resolve('Email sent');
         } else {
@@ -41,7 +57,8 @@ export async function POST(request: NextRequest) {
     });
 
   try {
-    await sendMailPromise();
+    receiveMailPromise();
+    sendMailPromise();
     return NextResponse.json({ message: 'Email sent' });
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });

@@ -4,16 +4,17 @@
 export default function About(){
     return(
       <div id="about" className="flex flex-col z-0 pt-16 ">
-        <div className="flex flex-col items-center font-mono">
-          <p className=" text-4xl text-white font-semibold pt-1">About Me</p>
-          <p className=" text-xl text-white text-center font-medium py-2">
-            I am from India.I am currently pursuing B.Tech in Computer Science and Engineering. I am currently learning web development and ML. I like to code and play games.
+        <div className="flex flex-col items-center font-mono w-full px-4 lg:px-12">
+          <p className=" text-4xl text-white font-semibold pt-1 shadow-black [text-shadow:_1px_1px_2px_var(--tw-shadow-color)]">About Me</p>
+          <p className=" text-xl text-white text-center font-medium mt-4">
+            
+            I am a student from India, currently pursuing my B.Tech degree in Computer Science and Engineering. My interest lies in web development and machine learning. I like to code and play games.
           </p>
         </div>
-        <div className=" flex flex-col items-center">
-          <p className=" text-2xl text-white font-mono mt-2">My Skills</p>
-          <div className="flex flex-col xl:flex-row  xl:justify-around  w-full">
-            <div className="flex flex-col items-center mt-6">
+        <div className=" flex flex-col items-center mt-10">
+          <p className=" text-2xl text-white font-mono font-semibold shadow-black [text-shadow:_0_1px_4px_var(--tw-shadow-color)]">Tech Stack</p>
+          <div className="flex flex-col xl:flex-row  xl:justify-around  w-full mt-2">
+            <div className="flex flex-col items-center ">
               <p className="text-xl text-white font-mono text-center pb-2">Programming Languages</p>
               <div className="grid grid-cols-3 md:grid-cols-7 xl:grid-cols-4  gap-x-10 gap-y-8" >
                 <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="50" height="50" />
@@ -26,7 +27,7 @@ export default function About(){
               </div>
             </div>
 
-            <div className="flex flex-col items-center mt-6">
+            <div className="flex flex-col items-center mt-10 xl:mt-0 ">
               <p className="text-xl text-white font-mono text-center pb-2">Frameworks, Libraries  & Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-8  gap-x-10 gap-y-8 ">
                 <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="50" height="50" />

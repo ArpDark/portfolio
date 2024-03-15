@@ -1,6 +1,6 @@
 "use client";
 
-import React,{FormEvent, useState} from "react";
+import React,{useState} from "react";
 
 export default function Contact(){
 
@@ -8,7 +8,7 @@ export default function Contact(){
     const [email,setEmail]=useState("");
     const [content,setContent]=useState("");
 
-    const handleSubmit=(event:any)=>{
+    const handleSubmit=async (event:any)=>{
         event.preventDefault();
         
         console.log(name);
@@ -28,9 +28,12 @@ export default function Contact(){
         .then((res) => res.json())
         .then((response) => {
             console.log(response);
+            setName("");
+            setEmail("");
+            setContent("");
         })
         .catch((err) => {
-            alert(err);
+            console.log(err);
         });
             
         

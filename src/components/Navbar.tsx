@@ -73,8 +73,9 @@ export default function Navbar(){
                         </Link>
                     </Menu.Item>
                     <Menu.Item>
-                        <div  className="border border-gray-500"></div>
+                        <div  className="border border-gray-500 mx-4"></div>
                     </Menu.Item>
+
                     <div className="flex mt-6 justify-around pb-6 ">
                       <Menu.Item>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArpDark">
