@@ -16,7 +16,7 @@ export default function Navbar(){
               <Link href="/#home" className=" font-medium text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">HOME</Link>
               <Link href="/#about" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">ABOUT</Link>
 
-              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XlyMqJABJjMv-IBaIDZG14qFv7XWG2Po/view" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">RESUME</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1L6jlMV1tppedZ8Rrc7DKPk0_GNXL1kjM/view?usp=sharing" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">RESUME</a>
 
               <Link href="/#projects" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">PROJECTS</Link>
               <Link href="/#contact" className=" text-white shadow-white hover:underline hover:[text-shadow:_0_0.5px_2px_var(--tw-shadow-color)]">CONTACT</Link>
@@ -64,7 +64,7 @@ export default function Navbar(){
                         </Link>
                     </Menu.Item>
                     <Menu.Item>
-                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XlyMqJABJjMv-IBaIDZG14qFv7XWG2Po/view" className="text-white block px-4 py-2 text-sm">
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1L6jlMV1tppedZ8Rrc7DKPk0_GNXL1kjM/view?usp=sharing" className="text-white block px-4 py-2 text-sm">
                           RESUME
                         </a>
                     </Menu.Item>
