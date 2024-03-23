@@ -17,34 +17,34 @@ export default function About(){
             <div className="flex flex-col items-center ">
               <p className="text-xl text-white font-mono text-center pb-2">Programming Languages</p>
               <div className="grid grid-cols-3 md:grid-cols-7 xl:grid-cols-4  gap-x-10 gap-y-8" >
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="50" height="50"/>
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="50" height="50"/>
               </div>
             </div>
 
             <div className="flex flex-col items-center mt-10 xl:mt-0 ">
               <p className="text-xl text-white font-mono text-center pb-2">Frameworks, Libraries  & Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-8  gap-x-10 gap-y-8 ">
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" width="50" height="50"  />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg" width="50" height="50" />        
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg"  width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" width="50" height="50" />
-                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="React router" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Next" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Express" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" width="50" height="50"  />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="TailwindCSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg" width="50" height="50" />        
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Material UI" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Mongoose" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="redis" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg"  width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Azure" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" width="50" height="50" />
+                <img className="bg-white p-1 rounded-md shadow-md shadow-gray-700" alt="Vercel" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" width="50" height="50" />
               </div>
             </div>
           </div>
