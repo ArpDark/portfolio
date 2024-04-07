@@ -7,6 +7,14 @@ export default function Projects(){
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-4 gap-y-8 mx-10 lg:mx-4 mt-6 ">
 
                 <div className=" flex flex-col justify-between bg-gray-600 rounded-md p-2 items-center shadow-md shadow-gray-700 font-mono text-white">
+                    <p className=" text-lg font-semibold p-1">CodeInit</p>
+                    <p className=" text-sm font-medium p-1 text-center">A code editor which supports 5 programming languages with features such as line numbers and tab indentation.</p>
+                    <div className="flex w-full justify-around m-1 border-2 rounded-full">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArpDark/CodeInit" className=" font-bold hover:underline hover:text-sm">GitHub Link</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://code-init.vercel.app/" className="font-bold hover:underline hover:text-sm">Live Link</a>
+                    </div>
+                </div>
+                <div className=" flex flex-col justify-between bg-gray-600 rounded-md p-2 items-center shadow-md shadow-gray-700 font-mono text-white">
                     <p className=" text-lg font-semibold p-1">EventForge</p>
                     <p className=" text-sm font-medium p-1 text-center">A web application in which users can create and save notes and events, and also has a pomodoro timer to boost user’s productivity.</p>
                     <div className="flex w-full justify-around m-1 border-2 rounded-full">
